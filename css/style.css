@@ -1,0 +1,60 @@
+header {
+    background-color: #26292E;
+    padding: .25rem;
+}
+
+.icons {
+    width: 1.75rem;
+    height: 1.75rem;
+    object-fit: cover;
+    padding: .25rem;
+    border-radius: 50%;
+    background-color: white;
+    margin: .1rem;
+}
+
+.icons2 {
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+}
+
+.pageName {
+    color: white;
+    letter-spacing: -1px;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.pink {
+    background-color: #E7718B;
+    padding: 3.5rem 0 1rem 0;
+    color: #F0E7E9;
+}
+
+.landingPageBtn {
+    background-image: linear-gradient(#646464, #2E2D2D);
+    color: #F0E7E9;
+    border: none;
+    border-radius: 5px;
+}
+
+.iconRow {
+    background-color: #F4F4F6;
+    padding-top: 1rem;
+    border-bottom: 2px solid #E87790;
+
+    & p {
+        color: #bdbdbd;
+    }
+}
+
+.quotes {
+    max-width: 700px;
+}
+
+.copyright {
+    background-color: #26292E;
+    color: #F0E7E9;
+    font-size: .75rem;
+}
