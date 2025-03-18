@@ -29,11 +29,25 @@ header {
     font-family: "Butterfly Kids", cursive;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
-  .imgContainer {
+.text {
+    z-index: 1;
+}
+
+.pText {
+    height: 27%;
+    overflow: auto;
+    margin: 10% 0 12% 17%;
+    width: 65%;
+    color: #26292E;
+}
+
+.imgContainer {
     max-width: 650px;
-  }
+    position: absolute;
+    top: 36%;
+}
   
 
 .heroImg {
@@ -43,9 +57,11 @@ header {
 }
 
 .pink {
+    position: relative;
     background-color: #E7718B;
     padding: 3.5rem 0 1rem 0;
     color: #F0E7E9;
+    height: 22rem;
 }
 
 .landingPageBtn {
@@ -81,4 +97,49 @@ header {
     background-color: #26292E;
     color: #F0E7E9;
     font-size: .75rem;
+}
+
+@media (min-width: 375px) {
+    
+    .pText {
+        height: 35%;
+    }
+
+    .pink {
+        height: 23rem;
+    }
+}
+
+@media (min-width: 425px) {
+    
+    .pText {
+        height: 49%;
+    }
+
+    .pink {
+        height: 25rem;
+    }
+
+    .imgContainer {
+        top: 29%;
+    }
+}
+
+@media (min-width: 768px) {
+    
+    .pText {
+        height: fit-content;
+        overflow: auto;
+        margin: 0 0 1rem 0;
+        width: 100%;
+    }
+
+    .pink {
+        height: fit-content;
+    }
+
+    .imgContainer {
+        top: 29%;
+        position: revert;
+    }
 }
